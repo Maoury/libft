@@ -52,7 +52,7 @@ BONUS = ft_lstnew.c \
 	ft_lstclear.c \
 
 SRCS_O  = ${SRCS:.c=.o}
-	BONUS_O         = ${BONUS:.c=.o}
+BONUS_O = ${BONUS:.c=.o}
 all:	$(NAME)
 
 LIBC    = ar -rcs

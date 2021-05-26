@@ -9,9 +9,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	return ((char *)substr);
 }
 
-/*int	main()
-{
-	char *tab;
-	tab = ft_substr("nique ton pere", 5, 9);
-	printf("%s", tab);
-}*/

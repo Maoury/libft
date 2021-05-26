@@ -13,11 +13,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
        	ft_memcpy(d, temp, n);
 	return(dest);
 }
-/*
-int main()
-{
-	char tab[] = "coucou la team hlim";
-	char dest[50];
-	printf("%s\n", ft_memmove(dest, tab, 17));
-	//printf("%s\n", memmove(dest, tab, 17));
-}*/

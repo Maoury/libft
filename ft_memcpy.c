@@ -14,11 +14,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 		*d++ = *s++;
 	return(dest);
 }
-/*
-int main(void)
-{
-	char tab[50];
-	char src[] = "Nique tes grands morts";
-	printf("%s\n", ft_memcpy(tab, src, 0));
-	printf("%s\n", memcpy(tab, src, 0));
-}*/

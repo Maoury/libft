@@ -17,14 +17,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	return(s);
 	
 }
-/*
-int	main(void)
-{
-	int tab[10];
-	ft_memset(tab, 2, 10 * sizeof(tab[0]));
-	for(int i = 0; i < 10; i++)
-		printf("%d\n", *(tab + i));
-	memset(tab, 2, 10 * sizeof(tab[0]));
-	for(int i = 0; i < 10; i++)
-		printf("%d\n", *(tab + i));
-}*/

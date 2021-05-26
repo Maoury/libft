@@ -20,9 +20,3 @@ int ft_atoi(const char *nptr)
 		res = res * 10 + (*nptr++ - 48);
 	return ((int) (res * sign));
 }
-
-
-/*int main()
-{
-	printf("%d", ft_atoi("-2147483648"));
-}*/

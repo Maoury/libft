@@ -15,11 +15,3 @@ char *ft_strjoin(char const *s1, char const *s2)
 		*join++ = *s2++;
 	return (ptr);
 }
-/*
-int main()
-{
-	char tab[520];
-	void *tab1;
-	printf("%s", ft_strjoin("coucou!", "ton mere me suce"));
-	//printf("%s", tab);
-}*/

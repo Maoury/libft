@@ -16,10 +16,3 @@ int ft_memcmp(const void *s1, const void *s2, size_t n)
 	
 	return (*temp1 - *temp2);
 }
-/*
-int main ()
-{
-	char t1[]= "coucou";
-       	char t2[]= "coucooo";
-	printf("%d\n", ft_memcmp(t1, t2, 6));	
-}*/

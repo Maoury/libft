@@ -17,9 +17,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 
 }
 
-/*int main(void)
-{
-	char tab[] = "Salut les zobi";
-	printf("%d\n", ft_memchr(tab, 'i', 14));
-	printf("%d\n", memchr(tab, 'i', 14));
-}*/
