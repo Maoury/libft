@@ -1,6 +1,6 @@
 #include "libft.h"
 
-int	ft_digits(long *n, int *neg)
+int		ft_digits(long *n, int *neg)
 {
 	int		digits;
 	long	nb;
